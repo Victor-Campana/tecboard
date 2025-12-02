@@ -109,6 +109,7 @@ section img{
     p{
         font-size: 20px;
         width: 340px;
+        
     }
 
     a{
@@ -121,4 +122,15 @@ section img{
         height: 230px;
     }
 
+}
+
+@media(max-width:414px){
+    p{
+        font-size: 20px;
+        width: 340px;
+    }
+    section img{
+        width: 340px;
+        height: 230px;;
+    }
 }
